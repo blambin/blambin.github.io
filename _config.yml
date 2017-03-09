@@ -1,8 +1,22 @@
-title: Blambin
-description: 
-google_analytics: 
-show_downloads: true
-theme: jekyll-theme-tactile
+name: 种田谷
+description:  blambin的自由地
 
-gems:
-  - jekyll-mentions
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+url: http://blog.blambin.org/
+permalink: /:year/:month/:title/
+owner:
+    name: #
+    twitter: #
+    github: #
+    disqus_shortname: #
+
+ga_id: #
+ga_username: #
+
