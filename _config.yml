@@ -12,9 +12,9 @@ redcarpet:
 url: http://blog.blambin.org
 permalink: /:year/:month/:title/
 owner:
-    name: #
-    twitter: #
-    github: #
+    name: blambin
+    twitter: blambin
+    github: blambin
     disqus_shortname: #
 
 ga_id: #

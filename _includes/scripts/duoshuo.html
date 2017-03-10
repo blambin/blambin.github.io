@@ -1,0 +1,23 @@
+{% if page.comments %}
+<!-- 多说评论框 start -->
+(function() {
+    var s = '<div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url | prepend: site.url }}"></div>';
+    var span = document.createElement('span');
+    span.innerHTML = s;
+    var elements = span.childNodes[0];
+    document.getElementById('body').appendChild(elements);
+})();
+{% endif %}
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+
+var duoshuoQuery = {short_name:"blambinn"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+<!-- 多说公共JS代码 end -->
