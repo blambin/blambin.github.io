@@ -7,7 +7,7 @@
     <li><a href="{{ "/feed.xml" | prepend: site.url }}">Feed</a></li>
     <li><a href="{{ "/search/" | prepend: site.url }}">Search</a></li>
     <li><a href="{{ "/tags/" | prepend: site.url }}">Tags</a></li>
-    <li><a href="{{ "/bash/" | prepend: site.url }}">Bash command</a></li>
+    <li><a href="{{ "/bash.html" | prepend: site.url }}">Bash command</a></li>
     <!-- <li><a href="https://github.com/iamnii/wangana">Project home</a></li>
     <li><a href="https://github.com/iamnii/wangana/archive/master.zip">Download</a></li> -->
 
