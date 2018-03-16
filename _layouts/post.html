@@ -21,9 +21,10 @@ layout: default
         </div>
     </div>
 </div>
+<div id="gitalk-container" ></div>
 <script>
     $(".page-preview-icon").hover(function(){
         $(this).parents(".page-nav").css("z-index","5000");
     });
-    {% include scripts/duoshuo.html %}
 </script>
+{% include scripts/gitalk.html %}
