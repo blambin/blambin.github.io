@@ -7,12 +7,12 @@
     {% if page.comments %}
 	<!-- gitalk评论框 start -->
 	var gitalk = new Gitalk({
-	  clientID: 'Github Application Client ID',
-	  clientSecret: 'Github Application Client Secret',
-	  repo: 'Github repo',
-	  owner: 'Github repo owner',
-	  admin: ['Github repo owner and collaborators, only these guys can initialize github issues'],
-	  id: location.pathname,      // Ensure uniqueness and length less than 50
+	  clientID: '267895d45788868b03a1',
+	  clientSecret: '6526b0091815b82b7aa1562ccf30c70f0efe4147',
+	  repo: 'blog-comment',
+	  owner: 'blambin',
+	  admin: ['blambin'],
+	  id: '{{ page.title }}',      // Ensure uniqueness and length less than 50
 	  distractionFreeMode: false  // Facebook-like distraction free mode
 	})
 
