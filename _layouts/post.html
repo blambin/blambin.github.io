@@ -5,7 +5,7 @@ layout: default
     <div class="page">
     	<div class="page-title">
     		{{ page.title }}
-    		<div class="meta">    			
+    		<div class="meta">
                 {% if site.owner.name %}
                 By {{site.owner.name}},
                 {% endif %}
@@ -17,11 +17,12 @@ layout: default
         <div class="page-content">
             {{ content }}
             <!-- Share & Comments -->
-            {% include scripts/share.html %}            
+            {% include scripts/share.html %}
         </div>
+        <div id="gitalk-container" ></div>
     </div>
 </div>
-<div id="gitalk-container" ></div>
+
 <script>
     $(".page-preview-icon").hover(function(){
         $(this).parents(".page-nav").css("z-index","5000");
